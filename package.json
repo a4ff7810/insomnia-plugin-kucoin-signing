@@ -1,0 +1,44 @@
+{
+  "name": "insomnia-plugin-kucoin-signing",
+  "version": "1.0.0",
+  "main": "main.js",
+  "insomnia": {
+    "name": "kucoin-signing",
+    "displayName": "KuCoin HMAC Signing",
+    "description": "Automatically HMAC-sign private KuCoin API calls.",
+    "images": {
+      "icon": "icon.png"
+    }
+  },
+  "keywords": [
+    "insomnia",
+    "plugin",
+    "kucoin",
+    "cryptocurrency",
+    "api",
+    "hmac",
+    "KC-API-KEY",
+    "KC-API-SIGN",
+    "KC-API-TIMESTAMP",
+    "KC-API-PASSPHRASE",
+    "KC-API-KEY-VERSION"
+  ],
+  "dependencies": {
+    "crypto-js": "^4.1.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/a4ff7810/insomnia-plugin-kucoin-signing.git"
+  },
+  "bugs": {
+    "url": "https://github.com/a4ff7810/insomnia-plugin-kucoin-signing/issues"
+  },
+  "description": "Heavily based on and inspired by [→ `insomnia_plugin_binance_signing`](https://github.com/matthijssn/insomnia-plugin-bitvavo-signing) by @matthijssn.",
+  "homepage": "https://github.com/a4ff7810/insomnia-plugin-kucoin-signing#readme",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "a4ff7810",
+  "license": "MIT"
+}

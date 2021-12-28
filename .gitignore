@@ -1,0 +1,10 @@
+# Ignore everything...
+*
+
+# ... except for
+!.gitignore
+!icon.png
+!LICENSE
+!main.js
+!package.json
+!README.md
