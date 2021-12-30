@@ -54,8 +54,8 @@ Beyond that, feel free to open up an [issue on GitHub](https://github.com/a4ff78
 
 ## Attribution
 
-This plugin is heavily based on and inspired by [`insomnia_plugin_binance_signing`](https://github.com/matthijssn/insomnia-plugin-bitvavo-signing), created by "matthijssn".
+This plugin is heavily based on and inspired by [`insomnia_plugin_binance_signing`](https://github.com/matthijssn/insomnia-plugin-bitvavo-signing), created by M. Sint Nicolaas.
 
-Also see [`insomnia-plugin-coinbase-apikey-auth`](https://github.com/avallete/insomnia-plugin-coinbase-apikey-auth), created by "avallete", which provides similar functionality for CoinBase.
+Also see [`insomnia-plugin-coinbase-apikey-auth`](https://github.com/avallete/insomnia-plugin-coinbase-apikey-auth), created by Andrew Valleteau, which provides similar functionality for CoinBase.
 
 The icon was created by "KCRSVP" under the [Creative Commons](https://en.wikipedia.org/wiki/en:Creative_Commons) [Attribution-Share Alike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en) and uploaded to Wikimedia Commons: https://commons.wikimedia.org/wiki/File:KuCoin-logo.png. I merely cropped it. It thus falls under the same license.
