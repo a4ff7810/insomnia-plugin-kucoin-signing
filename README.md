@@ -52,10 +52,12 @@ I've not yet messed with any `POST` or `DELETE` requests, so there might be drag
 
 Beyond that, feel free to open up an [issue on GitHub](https://github.com/a4ff7810/insomnia-plugin-kucoin-signing/issues) or create a [pull request](https://github.com/a4ff7810/insomnia-plugin-kucoin-signing/pulls). I'll try and keep an eye on those.
 
-## Attribution
+## Attribution & Other Exchanges
 
-This plugin is heavily based on and inspired by [`insomnia_plugin_binance_signing`](https://github.com/matthijssn/insomnia-plugin-bitvavo-signing), created by M. Sint Nicolaas.
+This plugin is heavily based on and inspired by [`insomnia-plugin-bitvavo-signing`](https://github.com/matthijssn/insomnia-plugin-bitvavo-signing) for Bitvavo, created by M. Sint Nicolaas.
 
-Also see [`insomnia-plugin-coinbase-apikey-auth`](https://github.com/avallete/insomnia-plugin-coinbase-apikey-auth), created by Andrew Valleteau, which provides similar functionality for CoinBase.
+This, in turn, is based on [`insomnia-plugin-binance-signing`](https://github.com/anson-vandoren/insomnia-plugin-binance-signing) for Binance, created by Anson VanDoren. Also check out the accompanying blog post: https://ansonvandoren.com/posts/hmac-signing-insomnia/.
+
+Additionally, there's [`insomnia-plugin-coinbase-apikey-auth`](https://github.com/avallete/insomnia-plugin-coinbase-apikey-auth) for CoinBase, created by Andrew Valleteau, and [`insomnia-plugin-ftx-signing`](https://insomnia.rest/plugins/insomnia-plugin-ftx-signing) for FTX, created by Diego Muracciole. There might be others!
 
 The icon was created by "KCRSVP" under the [Creative Commons](https://en.wikipedia.org/wiki/en:Creative_Commons) [Attribution-Share Alike 4.0 International license](https://creativecommons.org/licenses/by-sa/4.0/deed.en) and uploaded to Wikimedia Commons: https://commons.wikimedia.org/wiki/File:KuCoin-logo.png. I merely cropped it. It thus falls under the same license.
