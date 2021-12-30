@@ -72,7 +72,7 @@ module.exports.requestHooks = [
             request['getUrl'].constructor.name != 'Function' ||
             !request.getUrl().startsWith(kucoinUrl)
         ) {
-            console.log('Not a KuCoin API URL');
+            console.log('Not a KuCoin API URL.');
             return;
         }
 
@@ -98,9 +98,9 @@ module.exports.requestHooks = [
         const now = Date.now()
 
         // Set headers
+        request.setHeader('KC-API-KEY', request.getEnvironmentVariable('kucoin_api_key'))
         request.setHeader('KC-API-SIGN', computeSignature(request, now))
         request.setHeader('KC-API-TIMESTAMP', now)
-        request.setHeader('KC-API-KEY', request.getEnvironmentVariable('kucoin_api_key'))
         request.setHeader('KC-API-PASSPHRASE', computePassphrase(request))
         request.setHeader('KC-API-KEY-VERSION', "2")
 
